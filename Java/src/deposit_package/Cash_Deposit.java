@@ -6,9 +6,11 @@ public class Cash_Deposit extends Deposit {
 		amount = depositamount; 
 	}
 	@Override
-	public void get_deposit() {
+	public String get_deposit() {
 		// TODO Auto-generated method stub
-		System.out.println("Deposit " + Double.toString(amount) + " in cash!");
+		String s = "Deposit " + Double.toString(amount) + " in cash!";
+		System.out.println(s);
+		return s;
 	}
 	
 }
